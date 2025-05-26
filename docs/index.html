@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>B4HS – Box for Health Solutions</title>
     <style>
+        :root {
+            --primary-red: #E81E2E;
+            --primary-blue: #034172;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
             background-color: #f9f9f9;
             color: #333;
         }
         header {
-            background-color: #1a73e8;
+            background-color: var(--primary-blue);
             color: white;
             padding: 20px;
             text-align: center;
+        }
+        header img {
+            height: 60px;
+            vertical-align: middle;
         }
         section {
             padding: 20px;
@@ -28,7 +35,7 @@
             display: inline-block;
             margin: 10px;
             padding: 12px 24px;
-            background-color: #1a73e8;
+            background-color: var(--primary-red);
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -51,19 +58,20 @@
 <body>
 
 <header>
+    <img src="assets/logo.png" alt="B4HS Logo" />
     <h1>B4HS – Box for Health Solutions</h1>
     <p>Innovating Healthcare Through Technology and Behavior Change</p>
 </header>
 
 <section>
     <h2>Our Mission</h2>
-    <p>B4HS is dedicated to innovation in the healthcare sector, with a focus on health technology. Our approach is grounded in research, development, testing, and iteration to achieve:</p>
+    <p>B4HS is dedicated to innovation in healthcare, focusing on technology and behavior change. We aim for:</p>
     <ul>
         <li>✔ Problem-Solution Fit</li>
         <li>✔ Product-Market Fit</li>
         <li>✔ Business Model Fit</li>
     </ul>
-    <p>We operate holistically on three levels: <strong>psychological</strong>, <strong>physical</strong>, and <strong>behavioral</strong>.</p>
+    <p>We work on three levels: <strong>psychological</strong>, <strong>physical</strong>, and <strong>behavioral</strong>.</p>
 
     <div class="buttons">
         <a href="#invest">I Want to Invest</a>
@@ -75,8 +83,8 @@
     <h2>Our Products</h2>
 
     <div class="product">
-        <h3>Product 1: Smart Cigarette Case & App</h3>
-        <p>A companion tool to help users reduce or quit tobacco. This smart case is connected to a mobile app that guides users through behavior change strategies and tracks usage.</p>
+        <h3>Smart Cigarette Case & App</h3>
+        <p>Designed to help users quit or reduce tobacco use, this product pairs a smart cigarette case with an app to guide behavior change.</p>
         <div class="buttons">
             <a href="#order-smart-case">Order Now!</a>
             <a href="#test-smart-case">Be Part of the Test</a>
@@ -84,19 +92,19 @@
     </div>
 
     <div class="product">
-        <h3>Product 2: Vsober – VR for Cannabis Addiction</h3>
-        <p>Immersive virtual reality therapy to help treat addiction to cannabis. Vsober combines cutting-edge technology with evidence-based practices to support recovery.</p>
+        <h3>Vsober – VR for Cannabis Addiction</h3>
+        <p>Immersive virtual reality therapy for treating cannabis addiction using evidence-based and tech-powered solutions.</p>
     </div>
 </section>
 
 <section id="invest">
     <h2>I Want to Invest</h2>
-    <p>If you are interested in supporting our mission and becoming an investor in B4HS, please contact us or view our pitch deck (coming soon).</p>
+    <p>Interested in supporting the future of health innovation? Reach out to us or view our pitch deck (coming soon).</p>
 </section>
 
 <section id="participate">
     <h2>I Want to Participate</h2>
-    <p>Want to test our products, join our user feedback loop, or become a partner? We’d love to hear from you. Join our community today.</p>
+    <p>Join our beta programs, research studies, or become a community contributor to B4HS projects.</p>
 </section>
 
 <footer>
