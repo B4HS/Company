@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box for Health Solutions</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Box for Health Solutions</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products/smart-cigarette-case.html">Smart Cigarette Case</a></li>
+                <li><a href="products/vsober.html">Vsober</a></li>
+                <li><a href="participate.html">Participate</a></li>
+                <li><a href="invest.html">Invest</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Innovating Health Tech for a Better Tomorrow</h2>
+            <p>Box for Health Solutions combines technology, psychology, and behavior to transform healthcare.</p>
+        </section>
+
+        <section class="products-overview">
+            <h3>Featured Products</h3>
+            <ul>
+                <li>
+                    <h4>Smart Cigarette Case</h4>
+                    <p>Helping users reduce smoking through smart behavioral tracking.</p>
+                    <a href="products/smart-cigarette-case.html">Learn More</a>
+                </li>
+                <li>
+                    <h4>Vsober</h4>
+                    <p>VR therapy for cannabis addiction - immersive, innovative, and effective.</p>
+                    <a href="products/vsober.html">Learn More</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="cta">
+            <h3>Want to Join Us?</h3>
+            <a href="participate.html" class="button">I Want to Participate</a>
+            <a href="invest.html" class="button">I Want to Invest</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Box for Health Solutions</p>
+    </footer>
+</body>
+</html>
