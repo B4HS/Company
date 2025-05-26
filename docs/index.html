@@ -1,114 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>B4HS – Box for Health Solutions</title>
-    <style>
-        :root {
-            --primary-red: #E81E2E;
-            --primary-blue: #034172;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: var(--primary-blue);
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header img {
-            height: 60px;
-            vertical-align: middle;
-        }
-        section {
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-        .buttons a {
-            display: inline-block;
-            margin: 10px;
-            padding: 12px 24px;
-            background-color: var(--primary-red);
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .product {
-            background-color: #fff;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 20px 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background: #eee;
-            font-size: 14px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>B4HS – Box for Health Solutions</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
 
 <header>
-    <img src="assets/logo.png" alt="B4HS Logo" />
-    <h1>B4HS – Box for Health Solutions</h1>
-    <p>Innovating Healthcare Through Technology and Behavior Change</p>
+  <div class="container">
+    <img src="assets/logo.png" alt="B4HS Logo" class="logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="invest.html">Invest</a>
+      <a href="participate.html">Participate</a>
+      <a href="product-smartcase.html">Smart Case</a>
+      <a href="product-vsober.html">Vsober VR</a>
+    </nav>
+  </div>
 </header>
 
-<section>
+<section class="hero">
+  <h1>Box for Health Solutions (B4HS)</h1>
+  <p>Transforming healthcare through technology, psychology, and behavior science.</p>
+  <div class="cta-buttons">
+    <a href="invest.html" class="btn red">I Want to Invest</a>
+    <a href="participate.html" class="btn blue">I Want to Participate</a>
+  </div>
+</section>
+
+<main class="container">
+  <section>
     <h2>Our Mission</h2>
-    <p>B4HS is dedicated to innovation in healthcare, focusing on technology and behavior change. We aim for:</p>
-    <ul>
-        <li>✔ Problem-Solution Fit</li>
-        <li>✔ Product-Market Fit</li>
-        <li>✔ Business Model Fit</li>
-    </ul>
-    <p>We work on three levels: <strong>psychological</strong>, <strong>physical</strong>, and <strong>behavioral</strong>.</p>
+    <p>B4HS drives health innovation through rigorous research and human-centered design, addressing health problems across psychological, physical, and behavioral dimensions.</p>
+  </section>
 
-    <div class="buttons">
-        <a href="#invest">I Want to Invest</a>
-        <a href="#participate">I Want to Participate</a>
-    </div>
-</section>
+  <section class="product-preview">
+    <h2>Featured Products</h2>
 
-<section id="products">
-    <h2>Our Products</h2>
-
-    <div class="product">
-        <h3>Smart Cigarette Case & App</h3>
-        <p>Designed to help users quit or reduce tobacco use, this product pairs a smart cigarette case with an app to guide behavior change.</p>
-        <div class="buttons">
-            <a href="#order-smart-case">Order Now!</a>
-            <a href="#test-smart-case">Be Part of the Test</a>
-        </div>
+    <div class="product-card">
+      <h3>Smart Cigarette Case & App</h3>
+      <p>A tech-enabled tool to support users in quitting smoking, combining hardware and mobile behavior tracking.</p>
+      <a href="product-smartcase.html" class="btn blue">Explore</a>
     </div>
 
-    <div class="product">
-        <h3>Vsober – VR for Cannabis Addiction</h3>
-        <p>Immersive virtual reality therapy for treating cannabis addiction using evidence-based and tech-powered solutions.</p>
+    <div class="product-card">
+      <h3>Vsober – VR for Cannabis Addiction</h3>
+      <p>Immersive therapy in virtual reality to help users overcome cannabis addiction through behavioral exposure.</p>
+      <a href="product-vsober.html" class="btn blue">Explore</a>
     </div>
-</section>
-
-<section id="invest">
-    <h2>I Want to Invest</h2>
-    <p>Interested in supporting the future of health innovation? Reach out to us or view our pitch deck (coming soon).</p>
-</section>
-
-<section id="participate">
-    <h2>I Want to Participate</h2>
-    <p>Join our beta programs, research studies, or become a community contributor to B4HS projects.</p>
-</section>
+  </section>
+</main>
 
 <footer>
-    &copy; 2025 B4HS – Box for Health Solutions. All rights reserved.
+  <p>&copy; 2025 B4HS – All rights reserved</p>
 </footer>
 
 </body>
